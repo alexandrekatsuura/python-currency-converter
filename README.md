@@ -46,8 +46,8 @@ Make sure you have Python 3.x installed on your machine.
 
    ```bash
    python -m venv .venv
-   source venv/bin/activate  # On Linux/macOS
-   # venv\Scripts\activate    # On Windows
+   source .venv/bin/activate  # On Linux/macOS
+   # .venv\Scripts\activate    # On Windows
    ```
 
 3. Install the dependencies:
