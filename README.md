@@ -80,7 +80,8 @@ This will run all tests defined in the `tests/` directory and show the results.
 ```bash
 currency-converter-project/
 ├── src/
-│   └── main.py             # Main logic for currency conversion
+│   └── main.py             # Main logic for execution
+│   └── converter.py        # logic for currency conversion
 ├── tests/
 │   └── test_converter.py   # Unit tests for the converter
 ├── .gitignore              # Git ignore rules
